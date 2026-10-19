@@ -84,7 +84,7 @@ Clear the resume point when a print ends normally, e.g. at the end of your
 `END_PRINT` macro:
 
 ```
-SAVE_VARIABLE VARIABLE=plr VALUE="{}"
+SAVE_VARIABLE VARIABLE=plr VALUE="''"
 ```
 
 With Mainsail's `CANCEL_PRINT`, clear it on cancel too:
